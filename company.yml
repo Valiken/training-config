@@ -2,4 +2,4 @@
 spring:
   profiles: cloud
 
-message: Brian
+message: Company Message From Brian
