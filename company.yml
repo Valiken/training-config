@@ -1,5 +1,6 @@
 ---
 spring:
   profiles: cloud
-
-message: Company Message From Brian
+  message: Company Message From Brian
+  eureka.instance.hostname: ${vcap.application.uris[0]}
+  eureka.instance.nonSecurePort: 80
