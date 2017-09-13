@@ -3,3 +3,6 @@ spring:
   profiles: cloud
 
 message: Company Message From Brian
+
+eureka.instance.hostname: ${vcap.application.application_uris}
+eureka.instance.nonSecurePort: 80
