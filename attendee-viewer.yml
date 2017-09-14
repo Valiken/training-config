@@ -1,3 +1,7 @@
 ---
 spring:
   profiles: cloud
+
+feign:
+  hystrix:
+    enabled: true
