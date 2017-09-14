@@ -12,7 +12,7 @@ security:
   oauth2:
     client:
       clientId: ${vcap.services.gitSecrets.credentials.client_id}
-      clientSecret: ${${vcap.services.gitSecrets.credentials.client_secret}}
+      clientSecret: ${vcap.services.gitSecrets.credentials.client_secret}
       accessTokenUri: https://github.com/login/oauth/access_token
       userAuthorizationUri: https://github.com/login/oauth/authorize
       clientAuthenticationScheme: form
